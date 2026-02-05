@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+
+    <h3>Basic Info</h3>
+    <hr>
+    <table>
+        <tr>
+            <td class="label-col">Employee ID</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td class="label-col">Last Name</td>
+            <td>Dodsworth</td>
+        </tr>
+        <tr>
+            <td class="label-col">First Name</td>
+            <td><input type="text" value="Anne"></td>
+        </tr>
+        <tr>
+            <td class="label-col">Gender</td>
+            <td>
+                <input type="radio" name="gender" id="male"> <label for="male">Male</label><br>
+                <input type="radio" name="gender" id="female"> <label for="female">Female</label><br>
+                <input type="radio" name="gender" id="xxx"> <label for="xxx">XXX</label><br>
+                <input type="radio" name="gender" id="zzz" checked> <label for="zzz">ZZZ</label>
+            </td>
+        </tr>
+        <tr>
+            <td class="label-col">Title</td>
+            <td><input type="text" value="Sales Representative"></td>
+        </tr>
+        <tr>
+            <td class="label-col">Suffix</td>
+            <td><input type="text" value="Ms."></td>
+        </tr>
+        <tr>
+            <td class="label-col">BirthDate</td>
+            <td><input type="text" value="1969-07-02 00:00:00"></td>
+        </tr>
+        <tr>
+            <td class="label-col">HireDate</td>
+            <td><input type="text" value="1994-11-15 00:00:00"></td>
+        </tr>
+        <tr>
+            <td class="label-col">SSN # (if applicable)</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label-col">Reports To</td>
+            <td>
+                <select>
+                    <option>Buchanan</option>
+                    <option>Fuller</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+    <h3>Contact Info</h3>
+    <hr>
+    <table>
+        <tr>
+            <td class="label-col">Email</td>
+            <td><input type="email" placeholder="name@example.com"></td>
+        </tr>
+        <tr>
+            <td class="label-col">Address</td>
+            <td><input type="text" value="7 Houndstooth Rd."></td>
+        </tr>
+        <tr>
+            <td class="label-col">City</td>
+            <td><input type="text" value="London"></td>
+        </tr>
+        <tr>
+            <td class="label-col">Region</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label-col">Postal Code</td>
+            <td><input type="text" value="WG2 7LT"></td>
+        </tr>
+        <tr>
+            <td class="label-col">Country</td>
+            <td>
+                <select>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option selected>Russian Federation</option> </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="label-col">US Home Phone</td>
+            <td><input type="text" value="(234)234-2342"></td>
+        </tr>
+        <tr>
+            <td class="label-col">Photo</td>
+            <td><input type="file"></td>
+        </tr>
+    </table>
+
+    <h3>Optional Info</h3>
+    <hr>
+    <table>
+        <tr>
+            <td class="label-col">Notes</td>
+            <td>
+                <div class="editor-toolbar">
+                    <button type="button"><b>B</b></button>
+                    <button type="button"><i>I</i></button>
+                    <button type="button"><u>U</u></button>
+                    <button type="button">Link</button>
+                </div>
+                <textarea>Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="label-col">Preferred Shift</td>
+            <td>
+                <input type="checkbox"> Regular <br>
+                <input type="checkbox" checked> Gravy Yard
+            </td>
+        </tr>
+        <tr>
+            <td class="label-col">Active?</td>
+            <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+            <td class="label-col">Are you human?</td>
+            <td>
+                <div>T I D A W O</div>
+                <input type="text"> <small>Click to change</small>
+            </td>
+        </tr>
+    </table>
+
+    <div class="form-footer">
+        <button type="submit" class="btn btn-submit">Submit</button>
+        <button type="button" class="btn">Cancel</button>
+    </div>
+
+</form>
+</body>
+</html>
