@@ -1,0 +1,99 @@
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #fcfcfc;
+            color: #333;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wireframe-container {
+            max-width: 1000px;
+            width: 100%;
+            border: 2px solid #90d8f0; 
+            padding: 60px 40px;
+            background-color: #fff;
+        }
+
+        .main-heading {
+            text-align: center;
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 60px;
+            line-height: 1.5;
+            letter-spacing: -0.5px;
+        }
+
+        .content-wrapper {
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+        }
+
+        .card {
+            flex: 1;
+            background-color: #fff;
+            padding: 40px 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+        }
+
+        .card h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .card p.card-text {
+            font-size: 13px;
+            line-height: 1.8;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .card .author-name {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .card .author-title {
+            font-size: 12px;
+            color: #5b9bd5;
+            font-weight: bold;
+        }
+
+
+        .text-column {
+            flex: 1.5; /* Rộng hơn cột trái một chút */
+            font-size: 13px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .text-column p {
+            margin-bottom: 25px;
+        }
+
+        .text-column p.bold-text {
+            font-weight: bold;
+            color: #222;
+        }
+
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+                gap: 40px;
+            }
+            .wireframe-container {
+                padding: 30px 20px;
+            }
+        }

@@ -1,0 +1,75 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  z-index: 10;
+}
+
+#page-logo a {
+  font-family: 'Oleo Script', cursive;
+  color: #fbe04d;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+header nav ul {
+  display: flex;
+  gap: 32px;
+}
+
+header nav a {
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+header nav a:hover {
+  color: #fbe04d;
+}
+
+footer {
+  background-color: #1a1a1a;
+  padding: 32px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
